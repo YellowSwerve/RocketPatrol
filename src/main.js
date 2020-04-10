@@ -8,3 +8,6 @@ let config = {
 
 let game = new Phaser.Game(config);
 // loads the config above into phaser itself
+
+let keyF, keyLEFT, keyRIGHT, keyA , keyD, keyJ;
+//reserve some keyboard variables
