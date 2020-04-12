@@ -11,3 +11,8 @@ let game = new Phaser.Game(config);
 
 let keyF, keyLEFT, keyRIGHT, keyA , keyD, keyJ;
 //reserve some keyboard variables
+
+game.settings = {
+    spaceshipSpeed: 3,
+    gameTimer: 60000
+}
